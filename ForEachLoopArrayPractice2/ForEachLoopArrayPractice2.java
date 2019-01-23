@@ -13,14 +13,14 @@ public class ForEachLoopArrayPractice2
 			System.out.println(i);
 		}
 		System.out.println("\n*******************************************************");
-		System.out.println("intArray displayed using for each loop loop\n");
+		System.out.println("intArray displayed using for each loop\n");
 
 
 
 		// Sum of the elements of intArray is calculated and displayed using a for-each loop
 		int totalArray = 0;
 		for (int i : intArray){
-			totalArray += totalArray + i;
+			totalArray += i;
 		}
 		System.out.println(totalArray);
 		System.out.println("\n*******************************************************");
