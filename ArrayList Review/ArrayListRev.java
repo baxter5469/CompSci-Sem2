@@ -25,10 +25,10 @@ public class ArrayListRev
     private static ArrayList mergeLists(ArrayList<String> list1, ArrayList<String> list2){
         ArrayList<String> list3 = new ArrayList<String>();
         for (int i = 0; i < list1.size() || i < list2.size(); i++){
-            if (list1.size() >= i){
+            if (list1.size() > i){
                 list3.add(list1.get(i));
             }    
-            if (list2.size() >= i){
+            if (list2.size() > i){
                 list3.add(list2.get(i));
             } 
         }
