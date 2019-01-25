@@ -180,8 +180,8 @@ public class LoopProgrammingReviewTemplate2
 			// Ask the user for several numbers or Q to quit. Then calculate the average of their numbers.
 
 			
-			int count = 0;
-			int sum = 0;
+			double count = 0;
+			double sum = 0;
 			double average = 0;
 			boolean quitCheck = true;
 			String usrIn;
