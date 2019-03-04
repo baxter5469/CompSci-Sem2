@@ -11,9 +11,9 @@ public class Tester
         double cubeSurf = Geometry.cubeSurface(height);
         double cylinderVol = Geometry.cylinderVolume(radius, height);
         double cylinderSurf = Geometry.cylinderSurface(radius, height);
-        System.out.println("Cube Volume: " + cubeVol);
-        System.out.println("Cube Surface Area " + cubeSurf); 
-        System.out.println("Cylinder Volume: " + cylinderVol);
-        System.out.println("Cylinder Surface Area: " + cylinderSurf);
+        System.out.printf("Cube Volume: %.3f", cubeVol);
+        System.out.printf("\nCube Surface Area: %.3f", cubeSurf); 
+        System.out.printf("\nCylinder Volume: %.3f", cylinderVol);
+        System.out.printf("\nCylinder Surface Area: %.3f", cylinderSurf);
 }
 }
