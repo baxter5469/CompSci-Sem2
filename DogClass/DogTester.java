@@ -7,15 +7,14 @@ public class DogTester
 		System.out.println(d.toString());
 		System.out.println();
 		ServiceDog d2 = new ServiceDog("Dalmation","john");
-		System.out.println("First Constructor: \n" + d2.toString());
-		System.out.println();
+		System.out.printf("\nFirst Constructor: %77s",d2.toString());
 		ServiceDog d3 = new ServiceDog("Golden Retriever","Bob",5);
-		System.out.println("Second Constructor: \n" + d3.toString());
+		System.out.printf("\nSecond Constructor: %82s",d3.toString());
 		d3.addYear(2);
-		System.out.println();
-		System.out.println("Adding 2 years of service: \n" + d3.toString());
+		System.out.printf("\ntoString: %92s",d3.toString());
+		System.out.printf("\nAdding 2 years of service: %1d",d3.getYears());
 		d3.changeTrainer("Justin");
-		System.out.println();
-		System.out.println("Changing trainer name: \n" + d3.toString());
+		System.out.printf("\nChanging trainer name: %10s",d3.getTrainer());
+		
 	}
 }

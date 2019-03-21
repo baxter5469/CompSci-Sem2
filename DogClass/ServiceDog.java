@@ -10,9 +10,9 @@ public class ServiceDog extends Dog {
     }
     public String toString() {
         String output = "Breed: " + getBreed();
-        output += "\nName: " + getName();
-        output += "\nYears Of Service: " + getYears();
-        output += "\nTrainer Name: " + getTrainer();
+        output += ", Name: " + getName();
+        output += ", Years Of Service: " + getYears();
+        output += ", Trainer Name: " + getTrainer();
 		return output;
     }
     public int getYears() {
