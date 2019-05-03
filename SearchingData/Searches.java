@@ -49,11 +49,11 @@ public static int binarySearch(String[] elements, String target)
     while (left <= right)
     {
         int middle = (left + right) / 2;
-        if (elements[middle].compareTo(target) < 0)
+        if (target.compareTo(elements[middle]) < 0)
         {
             right = middle - 1;
         }
-        else if (elements[middle].compareTo(target) > 0)
+        else if (target.compareTo(elements[middle]) > 0)
         {
             left = middle + 1;
         }

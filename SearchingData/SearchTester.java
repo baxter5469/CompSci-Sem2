@@ -11,7 +11,7 @@ public class SearchTester
         System.out.println(Searches.sequentialSearch(myString,"Cccc"));
         System.out.println("expected: 5");
         System.out.println(Searches.binarySearch(myBinary,6));
-        System.out.println("expected: -1");
+        System.out.println("expected: 3");
         System.out.println(Searches.binarySearch(myString,"Dddd"));
     }
 
