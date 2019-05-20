@@ -1,0 +1,1 @@
+Sorts.mergeSort(myStr);
