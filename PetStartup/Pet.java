@@ -11,6 +11,3 @@ public class Pet extends Item
     feedRecord = _feedRecord;
   }
 }
-/* Worked on by:
-pavel yaskut
-*/
